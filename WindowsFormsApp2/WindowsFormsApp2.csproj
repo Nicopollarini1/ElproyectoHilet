@@ -146,5 +146,11 @@
   <ItemGroup>
     <None Include="img\materias.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="img\logo-hilet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\config.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
