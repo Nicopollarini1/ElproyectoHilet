@@ -345,6 +345,7 @@
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.Name = "agregar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H.I.L.E.T. - Edicion Usuarios";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

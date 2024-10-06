@@ -49,24 +49,51 @@ namespace WindowsFormsApp2
             {
                 case "admin":
                     lvlNombre.Text = "admin";
+                    tabControl1.TabPages.RemoveAt(12);
+                    tabControl1.TabPages.RemoveAt(11);
+                    tabControl1.TabPages.RemoveAt(10);
+                    tabControl1.TabPages.RemoveAt(9);
+                    tabControl1.TabPages.RemoveAt(8);
 
-                break;
+                    break;
 //--------------------------------------------------------------
                 case "personal":
                     lvlNombre.Text = "personal";
-
-                break;
+                    tabControl1.TabPages.RemoveAt(12);
+                    tabControl1.TabPages.RemoveAt(11);
+                    tabControl1.TabPages.RemoveAt(10);
+                    tabControl1.TabPages.RemoveAt(9);
+                    tabControl1.TabPages.RemoveAt(8);
+                    tabControl1.TabPages.RemoveAt(7);
+                    tabControl1.TabPages.RemoveAt(5);
+                    break;
 //--------------------------------------------------------------
                 case "profesor":
                     lvlNombre.Text = "profesor";
-
-                break;
+                    tabControl1.TabPages.RemoveAt(12);
+                    tabControl1.TabPages.RemoveAt(11);
+                    tabControl1.TabPages.RemoveAt(10);
+                    tabControl1.TabPages.RemoveAt(9);
+                    tabControl1.TabPages.RemoveAt(7);
+                    tabControl1.TabPages.RemoveAt(6);
+                    tabControl1.TabPages.RemoveAt(5);
+                    tabControl1.TabPages.RemoveAt(4);
+                    tabControl1.TabPages.RemoveAt(2);
+                    tabControl1.TabPages.RemoveAt(1);
+                    break;
 //--------------------------------------------------------------
                 case "alumno":
                     lvlNombre.Text = "alumno";
                     tabControl1.TabPages.RemoveAt(1);
+                    tabControl1.TabPages.RemoveAt(2);
+                    tabControl1.TabPages.RemoveAt(3);
+                    tabControl1.TabPages.RemoveAt(4);
+                    tabControl1.TabPages.RemoveAt(5);
+                    tabControl1.TabPages.RemoveAt(6);
+                    tabControl1.TabPages.RemoveAt(7);
+                    tabControl1.TabPages.RemoveAt(8);
 
-                break;
+                    break;
                 }
         }
 

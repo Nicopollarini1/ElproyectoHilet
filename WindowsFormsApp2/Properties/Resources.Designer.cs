@@ -113,6 +113,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap estudiantes {
+            get {
+                object obj = ResourceManager.GetObject("estudiantes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eye2__1_ {
             get {
                 object obj = ResourceManager.GetObject("eye2 (1)", resourceCulture);
@@ -146,6 +156,26 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap Logo_Hilet1 {
             get {
                 object obj = ResourceManager.GetObject("Logo-Hilet1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap materias {
+            get {
+                object obj = ResourceManager.GetObject("materias", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profesores {
+            get {
+                object obj = ResourceManager.GetObject("profesores", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

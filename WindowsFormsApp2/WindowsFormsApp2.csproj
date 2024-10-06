@@ -137,5 +137,14 @@
   <ItemGroup>
     <None Include="img\cancelar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="img\estudiantes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\profesores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\materias.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
