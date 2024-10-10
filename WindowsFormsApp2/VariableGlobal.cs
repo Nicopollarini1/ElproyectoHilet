@@ -9,6 +9,6 @@ namespace WindowsFormsApp2
     internal class VariableGlobal
     {
         public static bool entro {  get; set; }
-        public static string perfil { get; set; }
+        public static int perfil { get; set; }
     }
 }

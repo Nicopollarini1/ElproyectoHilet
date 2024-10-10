@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,27 @@ namespace WindowsFormsApp2
             txtContrasenia.UseSystemPasswordChar = true;
             ConexionLogin.Abrir();
         }
+
+        //validaciones-------------------------------
+        public int Validar(string Usuario, string Contrasena)
+        {
+            int Perfil = 0;
+            using (SqlCommand command = new SqlCommand("VerificacionLogin", ConexionLogin.conectorClase))
+            {
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@Usuario", Usuario);
+                command.Parameters.AddWithValue("@Contrasena", Contrasena);
+
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        Perfil = reader.GetInt32(0);
+                    }
+                }
+            }
+            return Perfil;
+        }
         private void btnToggleView_Click(object sender, EventArgs e)
         {
             if (txtContrasenia.UseSystemPasswordChar)
@@ -45,10 +67,12 @@ namespace WindowsFormsApp2
                 return;
             }
 
-            VariableGlobal.perfil = txtUsuario.Text;
+
+            string usuario = txtUsuario.Text;
             string password = txtContrasenia.Text;
-            
-            if (VariableGlobal.perfil == "admin" && password == "admin")
+
+            VariableGlobal.perfil = Validar(usuario, password);
+            if (VariableGlobal.perfil > 0)
             {
                 MenuPrincipal menuPrincipal = new MenuPrincipal();
                 menuPrincipal.Show();
@@ -56,7 +80,7 @@ namespace WindowsFormsApp2
                 ConexionLogin.Cerrar();
                 this.Close();
             }
-            else 
+            else
             {
                 intentos--;
                 MessageBox.Show($"Usuario o contraseña incorrectos.\nIntentos restantes : {intentos}");

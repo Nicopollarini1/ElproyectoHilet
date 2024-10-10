@@ -130,3 +130,31 @@ C:\Users\Nicopc\Desktop\Stuff's\proyecto  hilet\WindowsFormsApp2\WindowsFormsApp
 C:\Users\Nicopc\Desktop\Stuff's\proyecto  hilet\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\Nicopc\Desktop\Stuff's\proyecto  hilet\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\Nicopc\Desktop\Stuff's\proyecto  hilet\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.agregar.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.confirmar.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.LogIn.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.MenuPrincipal.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\hilet.HILET\Desktop\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.agregar.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.confirmar.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.LogIn.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.MenuPrincipal.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\hilet.HILET\Desktop\hilet 2.54\hilet 2.53\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.agregarMateria.resources
+C:\Users\Nicopc\Desktop\Stuff's\proyecto  hilet\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.agregarMateria.resources

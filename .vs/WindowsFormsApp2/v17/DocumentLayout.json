@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\nicopc\\desktop\\stuff\u0027s\\proyecto  hilet\\windowsformsapp2\\windowsformsapp2\\menuprincipal-admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\confirmar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\confirmar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\menuprincipal-admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\menuprincipal-admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|c:\\users\\nicopc\\desktop\\stuff\u0027s\\proyecto  hilet\\windowsformsapp2\\windowsformsapp2\\agregarmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\agregarmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\agregarmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\agregarmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\menuprincipal-admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\menuprincipal-admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\agregar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\confirmar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\confirmar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\confirmar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\confirmar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\variableglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +49,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\conexionbdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\conexionbdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\windowsformsapp2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36ACA55D-9E68-4A82-A75F-90E726B0C342}|WindowsFormsApp2\\WindowsFormsApp2.csproj|solutionrelative:windowsformsapp2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,65 +82,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "confirmar.cs",
-              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\confirmar.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp2\\confirmar.cs",
-              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\confirmar.cs",
-              "RelativeToolTip": "WindowsFormsApp2\\confirmar.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "agregarMateria.cs",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregarMateria.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\agregarMateria.cs",
+              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregarMateria.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\agregarMateria.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAD4vxUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:42:34.459Z"
+              "WhenOpened": "2024-10-08T15:05:43.821Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "agregarMateria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregarMateria.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\agregarMateria.cs",
+              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregarMateria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WindowsFormsApp2\\agregarMateria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T14:52:19.245Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "confirmar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\confirmar.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\confirmar.cs",
               "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\confirmar.cs [Dise\u00F1o]",
               "RelativeToolTip": "WindowsFormsApp2\\confirmar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:34:13.858Z"
+              "WhenOpened": "2024-09-30T14:34:13.858Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "agregar.cs",
-              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp2\\agregar.cs",
-              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs",
-              "RelativeToolTip": "WindowsFormsApp2\\agregar.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAAEQAAAA7AAAA",
+              "DocumentIndex": 8,
+              "Title": "confirmar.cs",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\confirmar.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\confirmar.cs",
+              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\confirmar.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\confirmar.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAmwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:25:33.649Z"
+              "WhenOpened": "2024-09-30T14:42:34.459Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "agregar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp2\\agregar.cs",
-              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WindowsFormsApp2\\agregar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:02:55.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\Program.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Program.cs",
               "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\Program.cs",
               "RelativeToolTip": "WindowsFormsApp2\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBkAAAAQAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T14:30:36.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
+              "Title": "conexionBdd.cs",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\conexionBdd.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\conexionBdd.cs",
+              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\conexionBdd.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\conexionBdd.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:55:56.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuPrincipal-Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\MenuPrincipal-Admin.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\MenuPrincipal-Admin.cs",
+              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\MenuPrincipal-Admin.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\MenuPrincipal-Admin.cs",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAiwPMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:35:27.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LogIn.cs",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\LogIn.cs",
+              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\LogIn.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAuwCAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:25:40.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MenuPrincipal-Admin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\MenuPrincipal-Admin.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\MenuPrincipal-Admin.cs",
@@ -144,60 +193,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "conexionBdd.cs",
-              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\conexionBdd.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp2\\conexionBdd.cs",
-              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\conexionBdd.cs",
-              "RelativeToolTip": "WindowsFormsApp2\\conexionBdd.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "agregar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\agregar.cs",
+              "ToolTip": "C:\\Users\\hilet.HILET\\Desktop\\hilet 2.54\\hilet 2.53\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\hilet.HILET\\Desktop\\hilet 2.54\\hilet 2.53\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T14:55:56.716Z"
+              "WhenOpened": "2024-09-30T00:02:55.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuPrincipal-Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\MenuPrincipal-Admin.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp2\\MenuPrincipal-Admin.cs",
-              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\MenuPrincipal-Admin.cs",
-              "RelativeToolTip": "WindowsFormsApp2\\MenuPrincipal-Admin.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDgAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "agregar.cs",
+              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp2\\agregar.cs",
+              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\agregar.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\agregar.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T13:35:27.278Z"
+              "WhenOpened": "2024-09-30T14:25:33.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LogIn.cs",
-              "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp2\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs",
-              "RelativeToolTip": "WindowsFormsApp2\\LogIn.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwDUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T13:25:40.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\Persona.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Persona.cs",
               "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\Persona.cs",
               "RelativeToolTip": "WindowsFormsApp2\\Persona.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAA8wFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T00:26:35.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LogIn.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs [Dise\u00F1o]",
-              "RelativeToolTip": "WindowsFormsApp2\\LogIn.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\hilet.HILET\\Desktop\\hilet 2.54\\hilet 2.53\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\hilet.HILET\\Desktop\\hilet 2.54\\hilet 2.53\\WindowsFormsApp2\\WindowsFormsApp2\\LogIn.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T13:25:11.749Z"
             },
@@ -209,7 +245,7 @@
               "RelativeDocumentMoniker": "WindowsFormsApp2\\VariableGlobal.cs",
               "ToolTip": "C:\\Users\\Nicopc\\Desktop\\Stuff\u0027s\\proyecto  hilet\\WindowsFormsApp2\\WindowsFormsApp2\\VariableGlobal.cs",
               "RelativeToolTip": "WindowsFormsApp2\\VariableGlobal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T14:53:52.643Z"
             }

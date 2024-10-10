@@ -31,6 +31,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tpInicioGral = new System.Windows.Forms.TabPage();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lvlNombre = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -42,8 +45,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lvlNombre = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.tpCarrerasAP = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
@@ -55,6 +56,7 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.tpExamenesAP = new System.Windows.Forms.TabPage();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.dataGridView7 = new System.Windows.Forms.DataGridView();
             this.tpUsuariosAdmin = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnAsignarUsuario = new System.Windows.Forms.Button();
@@ -62,17 +64,15 @@
             this.tpReportesAPD = new System.Windows.Forms.TabPage();
             this.tpConfiguracionAdmin = new System.Windows.Forms.TabPage();
             this.tpMisMateriasD = new System.Windows.Forms.TabPage();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.tpMiInfoALUMNO = new System.Windows.Forms.TabPage();
             this.tpHistorialALUMNO = new System.Windows.Forms.TabPage();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.tpReportesALUMNO = new System.Windows.Forms.TabPage();
             this.tpConfigALUMNO = new System.Windows.Forms.TabPage();
             this.btnSalir = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.dataGridView7 = new System.Windows.Forms.DataGridView();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
@@ -81,9 +81,17 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnRecargar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tpInicioGral.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.tpCarrerasAP.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -95,16 +103,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tpExamenesAP.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             this.tpUsuariosAdmin.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tpMisMateriasD.SuspendLayout();
-            this.tpHistorialALUMNO.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            this.tpHistorialALUMNO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -168,6 +175,40 @@
             this.tpInicioGral.TabIndex = 13;
             this.tpInicioGral.Text = "Inicio";
             this.tpInicioGral.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Controls.Add(this.lvlNombre);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(660, 62);
+            this.panel4.TabIndex = 24;
+            // 
+            // lvlNombre
+            // 
+            this.lvlNombre.AutoSize = true;
+            this.lvlNombre.Font = new System.Drawing.Font("Lucida Sans Unicode", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvlNombre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lvlNombre.Location = new System.Drawing.Point(198, 13);
+            this.lvlNombre.Name = "lvlNombre";
+            this.lvlNombre.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lvlNombre.Size = new System.Drawing.Size(0, 39);
+            this.lvlNombre.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Lucida Sans Unicode", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(10, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 39);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Bienvenido ";
             // 
             // label12
             // 
@@ -271,28 +312,6 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Estudiantes regulares :";
             // 
-            // lvlNombre
-            // 
-            this.lvlNombre.AutoSize = true;
-            this.lvlNombre.Font = new System.Drawing.Font("Lucida Sans Unicode", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvlNombre.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lvlNombre.Location = new System.Drawing.Point(198, 13);
-            this.lvlNombre.Name = "lvlNombre";
-            this.lvlNombre.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lvlNombre.Size = new System.Drawing.Size(0, 39);
-            this.lvlNombre.TabIndex = 8;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans Unicode", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(10, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 39);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Bienvenido ";
-            // 
             // tpCarrerasAP
             // 
             this.tpCarrerasAP.Controls.Add(this.panel5);
@@ -309,6 +328,7 @@
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel5.Controls.Add(this.button4);
             this.panel5.Controls.Add(this.dataGridView2);
             this.panel5.Location = new System.Drawing.Point(3, 3);
             this.panel5.Name = "panel5";
@@ -342,6 +362,7 @@
             this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel9.Controls.Add(this.button2);
             this.panel9.Controls.Add(this.dataGridView4);
             this.panel9.Location = new System.Drawing.Point(3, 3);
             this.panel9.Name = "panel9";
@@ -375,6 +396,7 @@
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel7.Controls.Add(this.btnRecargar);
             this.panel7.Controls.Add(this.dataGridView3);
             this.panel7.Location = new System.Drawing.Point(3, 3);
             this.panel7.Name = "panel7";
@@ -387,9 +409,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(7, 75);
+            this.dataGridView3.Location = new System.Drawing.Point(3, 75);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(644, 338);
+            this.dataGridView3.Size = new System.Drawing.Size(648, 338);
             this.dataGridView3.TabIndex = 0;
             // 
             // tpExamenesAP
@@ -408,11 +430,20 @@
             this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel11.Controls.Add(this.button1);
             this.panel11.Controls.Add(this.dataGridView7);
             this.panel11.Location = new System.Drawing.Point(3, 3);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(651, 418);
             this.panel11.TabIndex = 1;
+            // 
+            // dataGridView7
+            // 
+            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView7.Location = new System.Drawing.Point(3, 70);
+            this.dataGridView7.Name = "dataGridView7";
+            this.dataGridView7.Size = new System.Drawing.Size(645, 343);
+            this.dataGridView7.TabIndex = 0;
             // 
             // tpUsuariosAdmin
             // 
@@ -430,6 +461,7 @@
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.btnAsignarUsuario);
             this.panel3.Controls.Add(this.dataGridView1);
             this.panel3.Location = new System.Drawing.Point(3, 3);
@@ -439,7 +471,7 @@
             // 
             // btnAsignarUsuario
             // 
-            this.btnAsignarUsuario.Location = new System.Drawing.Point(528, 36);
+            this.btnAsignarUsuario.Location = new System.Drawing.Point(369, 36);
             this.btnAsignarUsuario.Name = "btnAsignarUsuario";
             this.btnAsignarUsuario.Size = new System.Drawing.Size(112, 23);
             this.btnAsignarUsuario.TabIndex = 1;
@@ -477,6 +509,7 @@
             // 
             // tpMisMateriasD
             // 
+            this.tpMisMateriasD.Controls.Add(this.button5);
             this.tpMisMateriasD.Controls.Add(this.dataGridView5);
             this.tpMisMateriasD.Location = new System.Drawing.Point(4, 22);
             this.tpMisMateriasD.Name = "tpMisMateriasD";
@@ -484,6 +517,14 @@
             this.tpMisMateriasD.TabIndex = 7;
             this.tpMisMateriasD.Text = "Mis materias";
             this.tpMisMateriasD.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView5
+            // 
+            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView5.Location = new System.Drawing.Point(8, 73);
+            this.dataGridView5.Name = "dataGridView5";
+            this.dataGridView5.Size = new System.Drawing.Size(649, 348);
+            this.dataGridView5.TabIndex = 0;
             // 
             // tpMiInfoALUMNO
             // 
@@ -496,6 +537,7 @@
             // 
             // tpHistorialALUMNO
             // 
+            this.tpHistorialALUMNO.Controls.Add(this.button6);
             this.tpHistorialALUMNO.Controls.Add(this.dataGridView6);
             this.tpHistorialALUMNO.Location = new System.Drawing.Point(4, 22);
             this.tpHistorialALUMNO.Name = "tpHistorialALUMNO";
@@ -503,6 +545,14 @@
             this.tpHistorialALUMNO.TabIndex = 10;
             this.tpHistorialALUMNO.Text = "Historial de Examenes";
             this.tpHistorialALUMNO.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView6
+            // 
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Location = new System.Drawing.Point(0, 73);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.Size = new System.Drawing.Size(657, 348);
+            this.dataGridView6.TabIndex = 0;
             // 
             // tpReportesALUMNO
             // 
@@ -561,42 +611,7 @@
             this.btnCerrarSesion.TabIndex = 5;
             this.btnCerrarSesion.Text = "Cerrar Sesión";
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Controls.Add(this.lvlNombre);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(660, 62);
-            this.panel4.TabIndex = 24;
-            // 
-            // dataGridView5
-            // 
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Location = new System.Drawing.Point(8, 73);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.Size = new System.Drawing.Size(649, 348);
-            this.dataGridView5.TabIndex = 0;
-            // 
-            // dataGridView6
-            // 
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Location = new System.Drawing.Point(0, 73);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.Size = new System.Drawing.Size(657, 348);
-            this.dataGridView6.TabIndex = 0;
-            // 
-            // dataGridView7
-            // 
-            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView7.Location = new System.Drawing.Point(3, 70);
-            this.dataGridView7.Name = "dataGridView7";
-            this.dataGridView7.Size = new System.Drawing.Size(645, 343);
-            this.dataGridView7.TabIndex = 0;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // btnEditar
             // 
@@ -642,6 +657,7 @@
             this.btnConfig.Size = new System.Drawing.Size(50, 50);
             this.btnConfig.TabIndex = 25;
             this.btnConfig.UseVisualStyleBackColor = false;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // pictureBox1
             // 
@@ -683,6 +699,77 @@
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
+            // btnRecargar
+            // 
+            this.btnRecargar.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recargar;
+            this.btnRecargar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnRecargar.Location = new System.Drawing.Point(615, 31);
+            this.btnRecargar.Name = "btnRecargar";
+            this.btnRecargar.Size = new System.Drawing.Size(36, 38);
+            this.btnRecargar.TabIndex = 1;
+            this.btnRecargar.UseVisualStyleBackColor = true;
+            this.btnRecargar.Click += new System.EventHandler(this.btnRecargar_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recargar;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Location = new System.Drawing.Point(606, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(36, 38);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recargar;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Location = new System.Drawing.Point(615, 31);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(36, 38);
+            this.button2.TabIndex = 2;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recargar;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Location = new System.Drawing.Point(615, 31);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(36, 38);
+            this.button3.TabIndex = 2;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recargar;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Location = new System.Drawing.Point(615, 31);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(36, 38);
+            this.button4.TabIndex = 2;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recargar;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.Location = new System.Drawing.Point(621, 29);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(36, 38);
+            this.button5.TabIndex = 2;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.recargar;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.Location = new System.Drawing.Point(621, 29);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(36, 38);
+            this.button6.TabIndex = 2;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -698,6 +785,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tpInicioGral.ResumeLayout(false);
             this.tpInicioGral.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.tpCarrerasAP.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
@@ -709,17 +798,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.tpExamenesAP.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             this.tpUsuariosAdmin.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tpMisMateriasD.ResumeLayout(false);
-            this.tpHistorialALUMNO.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            this.tpHistorialALUMNO.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -783,5 +870,12 @@
         private System.Windows.Forms.DataGridView dataGridView5;
         private System.Windows.Forms.DataGridView dataGridView6;
         private System.Windows.Forms.Button btnConfig;
+        private System.Windows.Forms.Button btnRecargar;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

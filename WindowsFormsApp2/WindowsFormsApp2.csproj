@@ -52,6 +52,12 @@
     <Compile Include="agregar.Designer.cs">
       <DependentUpon>agregar.cs</DependentUpon>
     </Compile>
+    <Compile Include="agregarMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregarMateria.Designer.cs">
+      <DependentUpon>agregarMateria.cs</DependentUpon>
+    </Compile>
     <Compile Include="conexionBdd.cs" />
     <Compile Include="confirmar.cs">
       <SubType>Form</SubType>
@@ -77,6 +83,9 @@
     <Compile Include="VariableGlobal.cs" />
     <EmbeddedResource Include="agregar.resx">
       <DependentUpon>agregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agregarMateria.resx">
+      <DependentUpon>agregarMateria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="confirmar.resx">
       <DependentUpon>confirmar.cs</DependentUpon>
@@ -151,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\recargar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
