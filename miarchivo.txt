@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 contador = 1
+=======
+contador = 3
+>>>>>>> car2
