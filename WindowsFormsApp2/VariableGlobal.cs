@@ -10,5 +10,8 @@ namespace WindowsFormsApp2
     {
         public static bool entro {  get; set; }
         public static int perfil { get; set; }
+
+       
+        public static Clases DatosUsuario {  get; set; }
     }
 }

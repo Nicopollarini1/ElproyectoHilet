@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(agregar));
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,8 +46,6 @@
             this.txtDni = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.gbCarrera = new System.Windows.Forms.GroupBox();
-            this.cbPublicidad = new System.Windows.Forms.CheckBox();
-            this.cbAnalista = new System.Windows.Forms.CheckBox();
             this.gbPerfil = new System.Windows.Forms.GroupBox();
             this.rbAdministrador = new System.Windows.Forms.RadioButton();
             this.rbPersonal = new System.Windows.Forms.RadioButton();
@@ -57,6 +56,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.cmbCarrera = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.gbCarrera.SuspendLayout();
             this.gbPerfil.SuspendLayout();
@@ -205,34 +205,13 @@
             // 
             // gbCarrera
             // 
-            this.gbCarrera.Controls.Add(this.cbPublicidad);
-            this.gbCarrera.Controls.Add(this.cbAnalista);
-            this.gbCarrera.Location = new System.Drawing.Point(376, 184);
+            this.gbCarrera.Controls.Add(this.cmbCarrera);
+            this.gbCarrera.Location = new System.Drawing.Point(376, 186);
             this.gbCarrera.Name = "gbCarrera";
-            this.gbCarrera.Size = new System.Drawing.Size(131, 65);
+            this.gbCarrera.Size = new System.Drawing.Size(131, 55);
             this.gbCarrera.TabIndex = 32;
             this.gbCarrera.TabStop = false;
             this.gbCarrera.Text = "Seleccione carrera";
-            // 
-            // cbPublicidad
-            // 
-            this.cbPublicidad.AutoSize = true;
-            this.cbPublicidad.Location = new System.Drawing.Point(6, 42);
-            this.cbPublicidad.Name = "cbPublicidad";
-            this.cbPublicidad.Size = new System.Drawing.Size(75, 17);
-            this.cbPublicidad.TabIndex = 1;
-            this.cbPublicidad.Text = "Publicidad";
-            this.cbPublicidad.UseVisualStyleBackColor = true;
-            // 
-            // cbAnalista
-            // 
-            this.cbAnalista.AutoSize = true;
-            this.cbAnalista.Location = new System.Drawing.Point(6, 19);
-            this.cbAnalista.Name = "cbAnalista";
-            this.cbAnalista.Size = new System.Drawing.Size(123, 17);
-            this.cbAnalista.TabIndex = 0;
-            this.cbAnalista.Text = "Analista de Sistemas";
-            this.cbAnalista.UseVisualStyleBackColor = true;
             // 
             // gbPerfil
             // 
@@ -257,7 +236,6 @@
             this.rbAdministrador.TabStop = true;
             this.rbAdministrador.Text = "Administrador";
             this.rbAdministrador.UseVisualStyleBackColor = true;
-            this.rbAdministrador.CheckedChanged += new System.EventHandler(this.rbAdministrador_CheckedChanged);
             // 
             // rbPersonal
             // 
@@ -269,7 +247,6 @@
             this.rbPersonal.TabStop = true;
             this.rbPersonal.Text = "Personal";
             this.rbPersonal.UseVisualStyleBackColor = true;
-            this.rbPersonal.CheckedChanged += new System.EventHandler(this.rbPersonal_CheckedChanged);
             // 
             // rbProfesor
             // 
@@ -281,7 +258,6 @@
             this.rbProfesor.TabStop = true;
             this.rbProfesor.Text = "Profesor";
             this.rbProfesor.UseVisualStyleBackColor = true;
-            this.rbProfesor.CheckedChanged += new System.EventHandler(this.rbProfesor_CheckedChanged);
             // 
             // rbAlumno
             // 
@@ -293,7 +269,6 @@
             this.rbAlumno.TabStop = true;
             this.rbAlumno.Text = "Alumno";
             this.rbAlumno.UseVisualStyleBackColor = true;
-            this.rbAlumno.CheckedChanged += new System.EventHandler(this.rbAlumno_CheckedChanged);
             // 
             // btnCancelar
             // 
@@ -337,20 +312,29 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // cmbCarrera
+            // 
+            this.cmbCarrera.FormattingEnabled = true;
+            this.cmbCarrera.Location = new System.Drawing.Point(6, 19);
+            this.cmbCarrera.Name = "cmbCarrera";
+            this.cmbCarrera.Size = new System.Drawing.Size(121, 21);
+            this.cmbCarrera.TabIndex = 34;
+            // 
             // agregar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(535, 369);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "agregar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H.I.L.E.T. - Edicion Usuarios";
+            this.Load += new System.EventHandler(this.agregar_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.gbCarrera.ResumeLayout(false);
-            this.gbCarrera.PerformLayout();
             this.gbPerfil.ResumeLayout(false);
             this.gbPerfil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
@@ -386,7 +370,6 @@
         private System.Windows.Forms.RadioButton rbPersonal;
         private System.Windows.Forms.RadioButton rbProfesor;
         private System.Windows.Forms.GroupBox gbCarrera;
-        private System.Windows.Forms.CheckBox cbPublicidad;
-        private System.Windows.Forms.CheckBox cbAnalista;
+        private System.Windows.Forms.ComboBox cmbCarrera;
     }
 }

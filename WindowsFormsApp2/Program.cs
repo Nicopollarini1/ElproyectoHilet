@@ -22,8 +22,7 @@ namespace WindowsFormsApp2
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LogIn());
-            if (VariableGlobal.entro)
-                Application.Run(new MenuPrincipal());
+   
             
         }
     }

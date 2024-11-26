@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,11 +53,29 @@
     <Compile Include="agregar.Designer.cs">
       <DependentUpon>agregar.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarCarrera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarCarrera.Designer.cs">
+      <DependentUpon>AgregarCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarExamen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarExamen.Designer.cs">
+      <DependentUpon>AgregarExamen.cs</DependentUpon>
+    </Compile>
     <Compile Include="agregarMateria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="agregarMateria.Designer.cs">
       <DependentUpon>agregarMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarAlumno.Designer.cs">
+      <DependentUpon>BuscarAlumno.cs</DependentUpon>
     </Compile>
     <Compile Include="conexionBdd.cs" />
     <Compile Include="confirmar.cs">
@@ -77,15 +96,24 @@
     <Compile Include="MenuPrincipal-Admin.Designer.cs">
       <DependentUpon>MenuPrincipal-Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Persona.cs" />
+    <Compile Include="Clases.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VariableGlobal.cs" />
     <EmbeddedResource Include="agregar.resx">
       <DependentUpon>agregar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AgregarCarrera.resx">
+      <DependentUpon>AgregarCarrera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgregarExamen.resx">
+      <DependentUpon>AgregarExamen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="agregarMateria.resx">
       <DependentUpon>agregarMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarAlumno.resx">
+      <DependentUpon>BuscarAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="confirmar.resx">
       <DependentUpon>confirmar.cs</DependentUpon>
@@ -163,6 +191,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\recargar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\gestion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\examen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buscaralumno.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\buscarmateria.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Limpiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Yo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\salvar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\clave.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,22 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(agregarMateria));
+            this.txtNombreMateria = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbAnioCursada = new System.Windows.Forms.ComboBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cmbCarrera = new System.Windows.Forms.ComboBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtNombre
+            // txtNombreMateria
             // 
-            this.txtNombre.Location = new System.Drawing.Point(132, 21);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(247, 20);
-            this.txtNombre.TabIndex = 23;
+            this.txtNombreMateria.Location = new System.Drawing.Point(132, 21);
+            this.txtNombreMateria.Name = "txtNombreMateria";
+            this.txtNombreMateria.Size = new System.Drawing.Size(247, 20);
+            this.txtNombreMateria.TabIndex = 23;
             // 
             // label1
             // 
@@ -63,18 +67,40 @@
             this.label2.TabIndex = 26;
             this.label2.Text = "Año de cursada";
             // 
-            // comboBox1
+            // cmbAnioCursada
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Primer Aaño",
-            "Segundo año",
-            "Tercer año"});
-            this.comboBox1.Location = new System.Drawing.Point(132, 72);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(247, 21);
-            this.comboBox1.TabIndex = 27;
-            this.comboBox1.Text = "Seleccione un año de cursada...";
+            this.cmbAnioCursada.FormattingEnabled = true;
+            this.cmbAnioCursada.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3"});
+            this.cmbAnioCursada.Location = new System.Drawing.Point(132, 72);
+            this.cmbAnioCursada.Name = "cmbAnioCursada";
+            this.cmbAnioCursada.Size = new System.Drawing.Size(247, 21);
+            this.cmbAnioCursada.TabIndex = 27;
+            this.cmbAnioCursada.Text = "Seleccione un año de cursada...";
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCancelar.BackgroundImage")));
+            this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCancelar.Location = new System.Drawing.Point(250, 162);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(66, 66);
+            this.btnCancelar.TabIndex = 31;
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAceptar.BackgroundImage")));
+            this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAceptar.Location = new System.Drawing.Point(89, 162);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(66, 66);
+            this.btnAceptar.TabIndex = 30;
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // label3
             // 
@@ -85,37 +111,21 @@
             this.label3.TabIndex = 28;
             this.label3.Text = "Carrera ";
             // 
-            // comboBox2
+            // cmbCarrera
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmbCarrera.FormattingEnabled = true;
+            this.cmbCarrera.Items.AddRange(new object[] {
             "Analista de Sistemas",
             "Tecnico superior en Publicidad"});
-            this.comboBox2.Location = new System.Drawing.Point(132, 126);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(247, 21);
-            this.comboBox2.TabIndex = 29;
-            this.comboBox2.Text = "Seleccione la carrera a la que pertenece...";
+            this.cmbCarrera.Location = new System.Drawing.Point(132, 126);
+            this.cmbCarrera.Name = "cmbCarrera";
+            this.cmbCarrera.Size = new System.Drawing.Size(247, 21);
+            this.cmbCarrera.TabIndex = 29;
+            this.cmbCarrera.Text = "Seleccione la carrera a la que pertenece...";
             // 
-            // btnCancelar
+            // errorProvider1
             // 
-            this.btnCancelar.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.cancelar;
-            this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCancelar.Location = new System.Drawing.Point(250, 162);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(66, 66);
-            this.btnCancelar.TabIndex = 31;
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // btnAceptar
-            // 
-            this.btnAceptar.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.aceptar;
-            this.btnAceptar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAceptar.Location = new System.Drawing.Point(89, 162);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(66, 66);
-            this.btnAceptar.TabIndex = 30;
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.errorProvider1.ContainerControl = this;
             // 
             // agregarMateria
             // 
@@ -124,29 +134,33 @@
             this.ClientSize = new System.Drawing.Size(410, 240);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cmbCarrera);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.cmbAnioCursada);
+            this.Controls.Add(this.txtNombreMateria);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "agregarMateria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "H.I.L.E.T. - Edicion Materias";
             this.Load += new System.EventHandler(this.agregarMateria_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtNombreMateria;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbAnioCursada;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cmbCarrera;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
